@@ -16,7 +16,7 @@ client.on("connect", function() {
     console.log("Connected to Redis server successfully!");
 
     // Example usage: set a key-value pair
-    client.set("name", "amit", function(error, reply) {
+    client.set("name", "ankush", function(error, reply) {
         if (error) {
             console.error("Error setting key:", error);
         } else {
